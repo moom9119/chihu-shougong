@@ -1,0 +1,16 @@
+# 构建产物（用 tools/build-single.mjs 重新生成）
+赤狐收工.html
+演示.html
+作品介绍.html
+
+# 本地数据与临时文件
+node_modules/
+qa/
+backup/
+*.log
+.DS_Store
+Thumbs.db
+
+# 音乐（第三方版权，不随仓库分发）
+assets/music/bgm.mp3
+assets/music/bgm.m4a

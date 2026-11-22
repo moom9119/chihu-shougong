@@ -1,0 +1,22 @@
+{
+  "name": "chihu-shougong",
+  "version": "1.12.1",
+  "private": true,
+  "type": "module",
+  "description": "赤狐收工 · 屏幕时间限制管理器（零依赖静态网页版）",
+  "scripts": {
+    "start": "node tools/serve.mjs",
+    "test": "node --test \"tests/*.test.mjs\"",
+    "test:ui": "node tools/ui-check.mjs",
+    "test:ui:shots": "node tools/ui-check.mjs --shots",
+    "build:demo": "node tools/build-single.mjs",
+    "build:delivery": "node tools/build-single.mjs --prod",
+    "pack:delivery": "node tools/pack-delivery.mjs",
+    "test:demo": "node tools/check-single.mjs",
+    "test:delivery": "node tools/check-delivery.mjs",
+    "test:bgm": "node tools/bgm-check.mjs",
+    "shots": "node tools/shots-delivery.mjs"
+  },
+  "keywords": ["screen-time", "focus", "self-control", "pwa", "zero-dependency"],
+  "license": "MIT"
+}

@@ -1,0 +1,83 @@
+/* ============================================================
+   tokens.css —— 设计变量：夜空 / 月光 / 小狐狸的暖橙
+   深色为主，浅色作为可选主题。
+   ============================================================ */
+
+:root {
+  color-scheme: dark;
+
+  /* 背景层 */
+  --bg-0: #0e0d16;
+  --bg-1: #15131f;
+  --bg-2: #1c1a29;
+  --bg-3: #262238;
+  --bg-4: #322d47;
+
+  /* 线与文字 */
+  --line: rgba(255, 255, 255, 0.07);
+  --line-strong: rgba(255, 255, 255, 0.14);
+  --text-1: #f3efe9;
+  --text-2: #b5aec2;
+  --text-3: #807a94;
+
+  /* 主题色 */
+  --fox: #ff9d5c;
+  --fox-deep: #e0703a;
+  --fox-soft: rgba(255, 157, 92, 0.14);
+  /* 选中态：更深、更饱和的橙（底部导航选中的那个模块用它） */
+  --fox-hot: #ff751a;
+  --fox-hot-soft: rgba(255, 117, 26, 0.2);
+  --petal: #ff9fbd;
+  --petal-soft: rgba(255, 159, 189, 0.16);
+  --leaf: #7fd1a8;
+  --leaf-soft: rgba(127, 209, 168, 0.14);
+  --sky: #9aaeff;
+  --danger: #ff6b6b;
+  --danger-soft: rgba(255, 107, 107, 0.14);
+  --warn: #ffcf6b;
+
+  /* 圆角 / 阴影 */
+  --r-s: 10px;
+  --r-m: 16px;
+  --r-l: 22px;
+  --r-xl: 30px;
+  --shadow-1: 0 10px 26px rgba(0, 0, 0, 0.34);
+  --shadow-2: 0 24px 60px rgba(0, 0, 0, 0.5);
+
+  /* 灰度 / 暗化（由 platform 动态写入） */
+  --gray-amount: 1;
+  --dim-amount: 0.1;
+
+  --font: "Inter", system-ui, -apple-system, "Segoe UI", "PingFang SC", "Hiragino Sans GB", "Microsoft YaHei", sans-serif;
+  --font-num: "SF Mono", "Cascadia Mono", ui-monospace, "Consolas", monospace;
+  --ease: cubic-bezier(0.22, 0.61, 0.36, 1);
+  --tabbar-h: 66px;
+}
+
+[data-theme="light"] {
+  color-scheme: light;
+  --bg-0: #f6f2ec;
+  --bg-1: #ffffff;
+  --bg-2: #f2ece3;
+  --bg-3: #e8e0d4;
+  --bg-4: #ddd2c2;
+  --line: rgba(40, 30, 20, 0.09);
+  --line-strong: rgba(40, 30, 20, 0.18);
+  --text-1: #2b2434;
+  --text-2: #5f5670;
+  --text-3: #8b819c;
+  --fox: #ef7f3a;
+  --fox-deep: #c35c22;
+  --fox-soft: rgba(239, 127, 58, 0.12);
+  --fox-hot: #d25a0c;
+  --fox-hot-soft: rgba(210, 90, 12, 0.16);
+  --petal: #ec6f95;
+  --petal-soft: rgba(236, 111, 149, 0.12);
+  --leaf: #3f9e73;
+  --leaf-soft: rgba(63, 158, 115, 0.12);
+  --sky: #5a73d8;
+  --danger: #d94a4a;
+  --danger-soft: rgba(217, 74, 74, 0.1);
+  --shadow-1: 0 8px 22px rgba(60, 45, 30, 0.1);
+  --shadow-2: 0 20px 50px rgba(60, 45, 30, 0.16);
+}

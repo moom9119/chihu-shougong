@@ -1,0 +1,29 @@
+<!doctype html>
+<html lang="zh-CN">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover" />
+  <meta name="color-scheme" content="dark light" />
+  <title>赤狐收工 · 屏幕时间限制管理器</title>
+  <link rel="icon" href="data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'><text y='.9em' font-size='90'>🦊</text></svg>" />
+  <link rel="stylesheet" href="./src/styles/tokens.css" />
+  <link rel="stylesheet" href="./src/styles/base.css" />
+  <link rel="stylesheet" href="./src/styles/components.css" />
+  <link rel="stylesheet" href="./src/styles/views.css" />
+  <link rel="stylesheet" href="./src/styles/session.css" />
+</head>
+<body>
+  <div id="app" class="app-root" data-phase="boot">
+    <div class="boot-splash">
+      <div class="boot-fox">🦊</div>
+      <p class="boot-text">正在唤醒小狐狸…</p>
+    </div>
+  </div>
+
+  <noscript>
+    <p style="padding:24px;font-family:system-ui">这个应用需要启用 JavaScript。</p>
+  </noscript>
+
+  <script type="module" src="./src/main.js"></script>
+</body>
+</html>
